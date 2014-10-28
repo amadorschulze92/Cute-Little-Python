@@ -39,7 +39,6 @@ while restart == 1:  #allowsforlooprestart
 			min = 1
 			max = 4
 			tracker += 1
-			print tracker
 			print ".............................."
 			print "dice roll # %s" % (tracker)
 			print "Fate rolls the dice..."
@@ -65,7 +64,6 @@ while restart == 1:  #allowsforlooprestart
 			min = 1
 			max = 8
 			tracker += 1
-			print tracker
 			print ".............................."
 			print "dice roll # %s" % (tracker)
 			print "Fate rolls the dice..."
@@ -91,7 +89,6 @@ while restart == 1:  #allowsforlooprestart
 			min = 1
 			max = 10
 			tracker += 1
-			print tracker
 			print ".............................."
 			print "dice roll # %s" % (tracker)
 			print "Fate rolls the dice..."
@@ -122,7 +119,6 @@ while restart == 1:  #allowsforlooprestart
 			min = 1
 			max = 12
 			tracker += 1
-			print tracker
 			print ".............................."
 			print "dice roll # %s" % (tracker)
 			print "Fate rolls the dice..."
@@ -153,7 +149,6 @@ while restart == 1:  #allowsforlooprestart
 			min = 1
 			max = 20
 			tracker += 1
-			print tracker
 			print ".............................."
 			print "dice roll # %s" % (tracker)
 			print "Fate rolls the dice..."
