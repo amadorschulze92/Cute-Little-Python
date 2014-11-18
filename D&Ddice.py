@@ -44,6 +44,10 @@ while restart == 1:  #allowsforlooprestart
 			min = 1
 			max = 4
 			tracker += 1
+<<<<<<< HEAD
+=======
+			print ".............................."
+>>>>>>> FETCH_HEAD
 			print "dice roll # %s" % (tracker)
 			print "Fate rolls the dice"
 			print "and the value is"
@@ -74,6 +78,10 @@ while restart == 1:  #allowsforlooprestart
 			min = 1
 			max = 8
 			tracker += 1
+<<<<<<< HEAD
+=======
+			print ".............................."
+>>>>>>> FETCH_HEAD
 			print "dice roll # %s" % (tracker)
 			print "Fate rolls the dice"
 			print "and the value is"
@@ -104,6 +112,10 @@ while restart == 1:  #allowsforlooprestart
 			min = 1
 			max = 10
 			tracker += 1
+<<<<<<< HEAD
+=======
+			print ".............................."
+>>>>>>> FETCH_HEAD
 			print "dice roll # %s" % (tracker)
 			print "Fate rolls the dice"
 			print "and the value is"
@@ -141,6 +153,10 @@ while restart == 1:  #allowsforlooprestart
 			min = 1
 			max = 12
 			tracker += 1
+<<<<<<< HEAD
+=======
+			print ".............................."
+>>>>>>> FETCH_HEAD
 			print "dice roll # %s" % (tracker)
 			print "Fate rolls the dice"
 			print "and the value is"
@@ -178,6 +194,10 @@ while restart == 1:  #allowsforlooprestart
 			min = 1
 			max = 20
 			tracker += 1
+<<<<<<< HEAD
+=======
+			print ".............................."
+>>>>>>> FETCH_HEAD
 			print "dice roll # %s" % (tracker)
 			print "Fate rolls the dice"
 			print "and the value is"
@@ -236,6 +256,7 @@ while restart == 1:  #allowsforlooprestart
 		    restart = 0
 		
 		else:  #unrelateduserinput
+<<<<<<< HEAD
 		    print "Xx-----------------------------------------xX"
 		    print "    We don't use that kind of dice in d&d"
 		    print "Xx-----------------------------------------xX"
@@ -243,3 +264,10 @@ while restart == 1:  #allowsforlooprestart
 		    print "............................................."
 		    restart = 1
 		    break
+=======
+			print "...."
+			print "we don't use that kind of dice in d&d"
+			print "...."
+			restart = 1
+			break
+>>>>>>> FETCH_HEAD
