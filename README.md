@@ -17,4 +17,4 @@ Some simple/early python codes I wrote for fun or to help me save time.
             
   webtest: Hits a website multiple times till pulls a http error
             
-  word_scramble: Throws a string veriable in all available places in a constant string
+  word_scramble: Throws a string variable in all available places in a constant string
