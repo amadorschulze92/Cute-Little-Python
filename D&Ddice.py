@@ -1,4 +1,16 @@
 import random  #allowsforrandomgenerator
+
+
+def d4(d_num):
+	if dice_type == "d"+str(d_num) or dice_type == str(d_num):  #readsuserinput
+		min = 1  #dicemin
+		max = d_num  #dicemax
+		tracker += 1
+		print "dice roll # %s" % (tracker)
+		print "Fate rolls the dice"
+		print "and the value is"
+		x = random.randint(min, max) #randomgenerator
+
 restart = 1  #enterintoloop
 
 print "------------------------------------------------------------------------------"
