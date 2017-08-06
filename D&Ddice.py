@@ -1,4 +1,5 @@
 import random  #allowsforrandomgenerator
+import time    #makesitfeelgood
 
 
 def dice(d_num, rolls=1):
@@ -23,6 +24,8 @@ def stats(d_num, rolls, local, my_rolls, my_total, my_avg):
 	my_total['total_'+str(d_num)] += local
 	avg = my_total['total_'+str(d_num)]/my_rolls['rolls_'+str(d_num)]
 	my_avg['avg_'+str(d_num)] = avg
+	nap_time = 0.5 + (0.5-(0.5/rolls))
+	time.sleep(nap_time)
 	return avg
 		
 
@@ -32,7 +35,7 @@ def main():
 	my_rolls = {'rolls_4':0, 'rolls_6':0, 'rolls_8':0, 'rolls_10':0, 'rolls_12':0, 'rolls_20':0, 'rolls_100':0}
 	my_total = {'total_4':0, 'total_6':0, 'total_8':0, 'total_10':0, 'total_12':0, 'total_20':0, 'total_100':0}
 	my_avg = {'avg_4':0, 'avg_6':0, 'avg_8':0, 'avg_10':0, 'avg_12':0, 'avg_20':0, 'avg_100':0}
-	print "------------------------------------------------------------------------------"
+	print "\n------------------------------------------------------------------------------"
 	print "_________________________to end program enter 'off'___________________________"
 	print "______________________ to see dice stats enter 'stats'________________________"
 	while restart == 1:  #allowsforlooprestart
