@@ -40,7 +40,7 @@ def main():
 	print "______________________ to see dice stats enter 'stats'________________________"
 	while restart == 1:  #allowsforlooprestart
 		dice_type = raw_input("What type of dice do you want to roll?: ")  #userinput
-		rolls = int(raw_input("How many times do you want to roll?: "))
+		rolls = int(raw_input("How many times do you want to roll?: ") or 1)
 		while True:  #generatesloop
 			if dice_type == "d4" or dice_type == "4":  #readsuserinput
 				local_4 = dice(4, rolls)
