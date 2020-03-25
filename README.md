@@ -1,7 +1,7 @@
 Cute-Little-Python
 ==================
 
-My Python Codes
+Some of My Random Python Code
 
 Some simple/early python codes I wrote for fun or to help me save time.
 
